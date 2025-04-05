@@ -4,7 +4,7 @@ public class AnoBissexto{
     public static void main (String [] args){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite um ano:");
+        System.out.print("Digite um ano: ");
         int ano = scanner.nextInt();// lê p amp do usuário
 
         //verifica se o ano é divisível por 4, mas nao por 100, ou se e divisivel por 400
